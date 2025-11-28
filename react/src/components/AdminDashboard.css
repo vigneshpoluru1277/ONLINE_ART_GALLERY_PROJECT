@@ -1,0 +1,9 @@
+/* Admin dashboard styles */
+.admin-card{background:var(--card);padding:20px;border-radius:8px;margin:20px 0;box-shadow:var(--shadow)}
+.admin-filters{margin-bottom:12px}
+.admin-table{width:100%;border-collapse:collapse;font-size:16px}
+.admin-table thead tr{background:rgba(15,23,42,0.04)}
+.admin-table td, .admin-table th{padding:10px;border-bottom:1px solid rgba(15,23,42,0.03)}
+.admin-action-btn{border:none;border-radius:6px;padding:6px 10px;cursor:pointer}
+.admin-delete{background:#ef4444;color:#fff}
+.admin-refund{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#fff;margin-left:8px}

@@ -1,0 +1,13 @@
+/* Sell page styles */
+.sell-section{margin-top:20px}
+.sell-empty{padding:20px;background:var(--card);border-radius:10px;box-shadow:var(--shadow)}
+.sell-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;margin-top:12px}
+.sell-card{background:var(--card);border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
+.sell-card img{width:100%;height:160px;object-fit:cover}
+.sell-card-body{padding:12px}
+.sell-meta{display:flex;justify-content:space-between;align-items:center}
+.sell-price{font-weight:700}
+.sell-actions{display:flex;gap:8px}
+.sell-card-body h4{margin:0 0 6px}
+.sell-card-body .muted{margin:0 0 8px}
+.sell-empty{padding:20px;background:var(--card);border-radius:10px;box-shadow:var(--shadow)}

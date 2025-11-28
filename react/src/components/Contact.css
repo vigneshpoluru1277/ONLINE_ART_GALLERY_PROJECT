@@ -1,0 +1,7 @@
+/* Contact page styles (component specific) */
+.contact-grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:20px}
+.contact-card{background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow)}
+.contact-info a{color:var(--accent);text-decoration:none}
+.form-actions{display:flex;gap:12px;margin-top:8px}
+.contact-faq{margin-top:12px}
+@media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
